@@ -1,0 +1,67 @@
+# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Virtual environments
+venv/
+.env/
+.venv/
+
+# Flask-SocketIO logs
+*.log
+
+# -------------------------
+# Node / React / Vite
+# -------------------------
+node_modules/
+dist/
+build/
+.cache/
+.vite/
+*.local
+
+# dotenv environment files
+.env
+.env.*
+!.env.example
+
+# -------------------------
+# OS / Editor Files
+# -------------------------
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# VSCode
+.vscode/
+.history/
+
+# -------------------------
+# Python packaging
+# -------------------------
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+
+# -------------------------
+# misc
+# -------------------------
+coverage/
+*.pid
